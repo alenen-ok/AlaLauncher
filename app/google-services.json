@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "615544430295",
+    "firebase_url": "https://kominch-3096c.firebaseio.com",
+    "project_id": "kominch-3096c",
+    "storage_bucket": "kominch-3096c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615544430295:android:26c144b2c6c29b59d05a92",
+        "android_client_info": {
+          "package_name": "space.alena.kominch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615544430295-79mbgk78ud08526f3tjdfj7q8p9tuf35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJXe5sXquc_7oCSkbCHpsrTYEyJvDCXu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615544430295-79mbgk78ud08526f3tjdfj7q8p9tuf35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

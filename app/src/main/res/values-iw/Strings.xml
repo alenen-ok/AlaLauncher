@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">התחל</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">שלום!</string>
+    <string name="description0">לאפליקציה יש:</string>
+    <string name="description1">- שתי ערכות נושא לבחירה (אור וכהה)</string>
+    <string name="description2">- שתי אפשרויות למיקום של הסמלים (נורמלי והדוק)</string>
+    <string name="slide_3_light_theme">ערכת נושא קלה</string>
+    <string name="slide_3_dark_theme">ערכת נושא כהה</string>
+    <string name="slide4_standart">פריסה סטנדרטית</string>
+    <string name="slide4_standart_descr">פורטרט: 4 סמלים ברצף \n
+        נוף: 6 סמלים ברצף</string>
+    <string name="slide_4_heavy">פריסה צפופה</string>
+    <string name="slide4_heavy_descr">דיוקן: 5 סמלים ברצף \n
+        נוף: 7 סמלים ברצף</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="nav_grid">רשת</string>
+    <string name="nav_list">רשימה</string>
+    <string name="nav_settings">הגדרות</string>
+    <string name="nav_profile">פרופיל</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">ערכת נושא כהה</string>
+    <string name="dense_layout">פריסה צפופה</string>
+    <string name="show_welcome_page">הצג את דף הפתיחה בפעם הבאה שתתחיל</string>
+</resources>

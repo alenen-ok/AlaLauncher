@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CE93D8</color>
+    <color name="transColorPrimary">#80CE93D8</color>
+    <color name="colorPrimaryDark">#AB47BC</color>
+    <color name="colorAccent">#EA80FC</color>
+    <color name="colorText">#757575</color>
+
+    <color name="darkColorPrimary">#7B1FA2</color>
+    <color name="transDarkColorPrimary">#807B1FA2</color>
+    <color name="darkColorPrimaryDark">#4A148C</color>
+    <color name="darkColorAccent">#8E24AA</color>
+    <color name="darkColorText">#75FFFFFF</color>
+
+    <color name="black">#757575</color>
+    <color name="back_alpha_80">#80808080</color>
+    <color name="black75">#75FFFFFF</color>
+    <color name="grid_background">#FF000000</color>
+    <color name="cell_empty">#FF993311</color>
+    <color name="cell_nearly_empty">#88993311</color>
+    <color name="cell_filled">#FFA99033</color>
+    <color name="cell_empty_hover">#ff00ff00</color>
+    <color name="cell_filled_hover">#ffaadddd</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="drop_target_color1">#FF993311</color>
+    <color name="drop_target_color2">#FFA99033</color>
+    <color name="drop_target_enabled">#FF009933</color>
+    <color name="drop_target_disabled">#FFdddddd</color>
+
+</resources>

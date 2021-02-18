@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/welcome_page_margin"
+    tools:context=".intro_slider.ThemeSelector">
+    <RadioGroup
+        android:id="@+id/radioGroupTheme"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/welcome_page_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButtonDay"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/stroke_radio_button"
+            android:textSize="@dimen/theme_selector_text"
+            android:textColor="@color/colorText"
+            android:text="@string/slide_3_light_theme" />
+        <RadioButton
+            android:id="@+id/radioButtonNight"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="@dimen/radio_button_height"
+            android:background="@drawable/stroke_radio_button"
+            android:textSize="@dimen/theme_selector_text"
+            android:textColor="@color/colorText"
+            android:text="@string/slide_3_dark_theme" />
+    </RadioGroup>
+</LinearLayout>

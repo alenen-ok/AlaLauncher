@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">Beginnen</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">Hallo!</string>
+    <string name="description0"> App hat: </string>
+    <string name="description1"> - zwei Themen zur Auswahl(hell und dunkel)</string>
+    <string name="description2"> - zwei Optionen für die Position der Symbole (normal und eng) </string>
+    <string name="slide_3_light_theme">Licht Thema</string>
+    <string name="slide_3_dark_theme">Dunkles Thema</string>
+    <string name="slide4_standart">Standardlayout</string>
+    <string name="slide4_standart_descr">Porträt: 4 Symbole in einer Reihe\nLandschaft: 6 Symbole in einer Reihe</string>
+    <string name="slide_4_heavy">Dichten layout</string>
+    <string name="slide4_heavy_descr">Porträt: 5 Symbole in einer Reihe\nLandschaft: 7 Symbole in einer Reihe</string>
+    <string name="action_settings">Einstellung</string>
+    <string name="nav_grid">Grid</string>
+    <string name="nav_list">Liste</string>
+    <string name="nav_settings">Einstellung</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">Dunkles Thema</string>
+    <string name="dense_layout">Dichten layout</string>
+    <string name="show_welcome_page">Zeige Welcome-Page beim nächsten Lauf</string>
+</resources>

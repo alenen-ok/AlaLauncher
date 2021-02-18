@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">प्रारंभ करें</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">नमस्कार!!</string>
+    <string name="description0"> अनुप्रयोग है: </string>
+    <string name="description1"> - दो विषयों से चुनने के लिए(प्रकाश और अंधेरे)</string>
+    <string name="description2"> - माउस के स्थान के लिए दो विकल्प (सामान्य और तंग) </string>
+    <string name="slide_3_light_theme">लाइट थीम</string>
+    <string name="slide_3_dark_theme">डार्क थीम</string>
+    <string name="slide4_standart">स्टैंडर्ड लेआउट</string>
+    <string name="slide4_standart_descr">पोर्ट्रेट: एक पंक्ति में 4 प्रतीक\nलैंडस्केप: एक पंक्ति में 6 प्रतीक</string>
+    <string name="slide_4_heavy">घने लेआउट</string>
+    <string name="slide4_heavy_descr">पोर्ट्रेट: एक पंक्ति में 5 प्रतीक\nलैंडस्केप: एक पंक्ति में 7 प्रतीक</string>
+    <string name="action_settings">विन्यास</string>
+    <string name="nav_grid">ग्रिड</string>
+    <string name="nav_list">सूची</string>
+    <string name="nav_settings">विन्यास</string>
+    <string name="nav_profile">प्रोफाइल</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">डार्क थीम</string>
+    <string name="dense_layout">घने लेआउट</string>
+    <string name="show_welcome_page">अगली बार जब आप शुरू करें, तो आपका स्वागत है-पृष्ठ दिखाएं</string>
+</resources>

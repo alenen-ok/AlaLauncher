@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro_slider.DensitySelector">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRadioGroup"
+        android:layout_marginStart="@dimen/welcome_page_margin"
+        android:layout_marginEnd="@dimen/welcome_page_margin"
+        android:layout_marginTop="@dimen/welcome_page_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

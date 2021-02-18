@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">დაწყება</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">ჱეპაგვი!</string>
+    <string name="description0">აპლიკაცია აქვს:</string>
+    <string name="description1"> - ორი თემები არჩევანი (ნათელი და ბნელი)</string>
+    <string name="description2"> - ორი ვარიანტი მდებარეობა ხატები (ნორმალური და მჭიდრო) </string>
+    <string name="slide_3_light_theme">მსუბუქი თემა</string>
+    <string name="slide_3_dark_theme">მუქი თემა</string>
+    <string name="slide4_standart">სტანდარტული განლაგება</string>
+    <string name="slide4_standart_descr">პორტრეტი: 4 ხატები ზედიზედ\nპეიზაჟი: 6 ხატები ზედიზედ</string>
+    <string name="slide_4_heavy">მკვრივი განლაგება</string>
+    <string name="slide4_heavy_descr">პორტრეტი: 5 ხატები ზედიზედ\nპეიზაჟი: 7 ხატები ზედიზედ</string>
+    <string name="action_settings">პარამეტრები</string>
+    <string name="nav_grid">ქსელის</string>
+    <string name="nav_list">სია</string>
+    <string name="nav_settings">პარამეტრები</string>
+    <string name="nav_profile">პროფილი</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">მუქი თემა</string>
+    <string name="dense_layout">მკვრივი განლაგება</string>
+    <string name="show_welcome_page">აჩვენეთ მისასალმებელი გვერდი შემდეგ ეტაპზე</string>
+</resources>

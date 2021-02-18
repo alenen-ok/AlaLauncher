@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/radioButtonLayout"
+    android:layout_width="@dimen/radio_button_width"
+    android:layout_height="@dimen/radio_button_height"
+    android:paddingTop="110dp"
+    android:layout_margin="1dp"
+    android:background="@drawable/stroke_radio_button"
+    android:descendantFocusability="blocksDescendants">
+
+    <RadioButton
+        android:id="@+id/myRadiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.9"
+        android:layout_height="wrap_content"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/buttonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/buttonDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</LinearLayout>

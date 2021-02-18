@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/action_settings">
+        <SwitchPreference
+            android:key="@string/id_theme_pref"
+            android:title="@string/dark_theme"
+            android:switchTextOff="Нет"
+            android:switchTextOn="Да" />
+        <SwitchPreference
+            android:key="@string/id_layout_pref"
+            android:title="@string/dense_layout"
+            android:summary="@string/slide4_heavy_descr"
+            android:switchTextOff="Нет"
+            android:switchTextOn="Да" />
+        <ListPreference
+            android:key="@string/id_type_of_sort"
+            android:title="Сортировка"
+            android:summary="Устанавливает способ сортировки приложений"
+            android:defaultValue="@string/wout_sort"
+            android:entries="@array/type_of_sort"
+            android:entryValues="@array/type_of_sort"
+            android:dialogTitle="Выберите способ сортировки" />
+        <Preference
+            android:key="@string/id_refresh_now_pref"
+            android:title="@string/refresh_now"/>
+        <ListPreference
+            android:key="wallpaperSource"
+            android:title="Источник фонового изображения"
+            android:summary="Откуда будут загружаться обои"
+            android:entries="@array/wallpaper_source_properties"
+            android:entryValues="@array/wallpaper_source_values"
+            android:defaultValue="https://picsum.photos/800/1600"
+            android:dialogTitle="Выберите источник" />
+        <ListPreference
+            android:key="wallpaperUpdateFrequency"
+            android:title="Частота обновления фона"
+            android:summary="Как часто будет обновляться фон"
+            android:defaultValue="1440"
+            android:entries="@array/wallpaper_frequency_properties"
+            android:entryValues="@array/wallpaper_frequency_values"
+            android:dialogTitle="Выберите частоту" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Настройки запуска">
+        <CheckBoxPreference
+            android:key="@string/id_openmode_pref"
+            android:title="@string/welcome_page"
+            android:summary="@string/show_welcome_page" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

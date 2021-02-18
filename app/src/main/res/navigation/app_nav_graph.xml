@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="space.alena.kominch.app_fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_gridFragment2"
+            app:destination="@id/gridFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gridFragment"
+        android:name="space.alena.kominch.app_fragments.GridFragment"
+        android:label="@string/nav_grid"
+        tools:layout="@layout/fragment_grid" >
+        <action
+            android:id="@+id/action_gridFragment_to_linearFragment"
+            app:destination="@id/linearFragment" />
+        <action
+            android:id="@+id/action_gridFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/linearFragment"
+        android:name="space.alena.kominch.app_fragments.LinearFragment"
+        android:label="@string/nav_list"
+        tools:layout="@layout/fragment_linear" >
+        <action
+            android:id="@+id/action_linearFragment_to_gridFragment"
+            app:destination="@id/gridFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="space.alena.kominch.app_fragments.SettingsFragment"
+        android:label="@string/nav_settings" />
+    <activity
+        android:id="@+id/profileFragment"
+        android:name="space.alena.kominch.activities.ProfileActivity"
+        android:label="@string/student_name"
+        tools:layout="@layout/activity_profile" />
+</navigation>

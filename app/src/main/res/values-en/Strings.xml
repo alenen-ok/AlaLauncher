@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">Start</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">Hello!</string>
+    <string name="description0"> App has: </string>
+    <string name="description1"> - two themes to choose from(light and dark) </string>
+    <string name="description2"> - two options for the location of the icons (normal and tight) </string>
+    <string name="slide_3_light_theme">Light theme</string>
+    <string name="slide_3_dark_theme">Dark theme</string>
+    <string name="slide4_standart">Standard layout</string>
+    <string name="slide4_standart_descr">Portrait: 4 icons in a row\nLandscape: 6 icons in a row</string>
+    <string name="slide_4_heavy">Dense layout</string>
+    <string name="slide4_heavy_descr">Portrait: 5 icons in a row\nLandscape: 7 icons in a row</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_grid">Grid</string>
+    <string name="nav_list">List</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="dense_layout">Dense layout</string>
+    <string name="show_welcome_page">Show Welcome-Page on next run</string>
+</resources>

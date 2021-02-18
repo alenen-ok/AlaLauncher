@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="space.alena.kominch">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="space.alena.kominch.provider.LAST_READ_PERMISSION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="space.alena.kominch.provider.APPS_READ_PERMISSION"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="space.alena.kominch.provider.APPS_WRITE_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main_pict"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemes">
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppThemes.NoActionBar"
+            android:parentActivityName=".activities.ApplicationListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="profile"
+                    android:scheme="push" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.MyContentProvider"
+            android:authorities="space.alena.kominch.provider"
+            android:exported="true">
+            <path-permission
+                android:path="/last"
+                android:readPermission="space.alena.kominch.provider.LAST_READ_PERMISSION" />
+            <path-permission
+                android:path="/apps"
+                android:readPermission="space.alena.kominch.provider.APPS_READ_PERMISSION"
+                android:writePermission="space.alena.kominch.provider.APPS_WRITE_PERMISSION" />
+        </provider>
+
+        <activity android:name=".activities.ApplicationListActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.WelcomePageActivity" />
+
+        <service
+            android:name=".service.BackgroundLoaderService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".service.SilentPushReceiver">
+            <intent-filter>
+                <action android:name="space.alena.kominch.action.ymp.SILENT_PUSH_RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.yandex.metrica.push.default_notification_icon"
+            android:resource="@drawable/small_icon" />
+    </application>
+
+</manifest>

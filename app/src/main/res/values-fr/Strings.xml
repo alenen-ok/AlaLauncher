@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">Commencer</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">Hello!</string>
+    <string name="description0"> App a: </string>
+    <string name="description1"> - deux thèmes à choisir(clair et sombre) </string>
+    <string name="description2"> - deux options pour l\'emplacement des icônes (normal et serré) </string>
+    <string name="slide_3_light_theme">Thème de la lumière</string>
+    <string name="slide_3_dark_theme">Thème sombre</string>
+    <string name="slide4_standart">Mise en page Standard</string>
+    <string name="slide4_standart_descr">Portrait: 4 icônes d\'affilée\n
+        Paysage: 6 icônes d\'affilée </string>
+    <string name="slide_4_heavy">Dense de mise en page</string>
+    <string name="slide4_heavy_descr">Portrait: 5 icônes d\'affilée \n
+        Paysage: 7 icônes d\'affilée </string>
+    <string name="action_settings">Paramètre</string>
+    <string name="nav_grid">Grille</string>
+    <string name="nav_list">Liste</string>
+    <string name="nav_settings">Paramètre</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">Thème sombre</string>
+    <string name="dense_layout">Dense de mise en page</string>
+    <string name="show_welcome_page">Afficher Welcome-Page lors de la prochaine exécution</string>
+</resources>

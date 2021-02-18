@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kominch Launcher</string>
+    <string name="start">ابدأ</string>
+    <string name="student_name">Kominch Alena</string>
+    <string name="student_link">\@alenakominch</string>
+    <string name="hello">مرحبا!</string>
+    <string name="description0">التطبيق لديه:</string>
+    <string name="description1">- موضوعان للاختيار منهما (الضوء والظلام))</string>
+    <string name="description2">- خياران لموقع الأيقونات (عادي و مشدود))</string>
+    <string name="slide_3_light_theme">سمة الضوء</string>
+    <string name="slide_3_dark_theme">سمة مظلمة</string>
+    <string name="slide4_standart">التصميم المعياري</string>
+    <string name="slide4_standart_descr">صورة: 4 أيقونات في صف \n
+        المناظر الطبيعية: 6 أيقونات على التوالي</string>
+    <string name="slide_4_heavy">تخطيط كثيف</string>
+    <string name="slide4_heavy_descr">صورة: 5 أيقونات في صف \n
+        المناظر الطبيعية: 7 أيقونات على التوالي</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="nav_grid">الشبكة</string>
+    <string name="nav_list">قائمة</string>
+    <string name="nav_settings">إعدادات</string>
+    <string name="nav_profile">التوصيف</string>
+    <string name="nav_header_title">Kominch Alena</string>
+    <string name="dark_theme">سمة مظلمة</string>
+    <string name="dense_layout">تخطيط كثيف</string>
+    <string name="show_welcome_page">إظهار صفحة الترحيب في المرة التالية التي تبدأ فيها</string>
+</resources>
