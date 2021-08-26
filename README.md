@@ -1,6 +1,6 @@
 # AlaLauncher
 
-## Launcher app written in Kotlin. It contanes:
+## Launcher app written in Kotlin. It contains:
 - Splash Activity
 - Intro slider via ViewPager
 - Navigation makes by NavigationDrawer via navigation graph
